@@ -1,0 +1,15 @@
+Hi {FIRST_NAME} {LAST_NAME},
+
+          Your Last Toll Plaza Transaction Details Are:
+        
+
+               Transaction TagId  : {TAG_ID}
+       Vehicle Regtration Number  : {VEH_REG_NO} 
+                    Vehicle Type  : {VEH_TYPE}
+                   Toll Plaza Id  : {TOLL_PLAZA_ID}
+                  Deducted Money  : {DEDUCTED_MONEY}   
+             Current Tag Balance  : {TAG_BALANCE}  
+            
+                    
+  Thanks,
+  ATS Team.

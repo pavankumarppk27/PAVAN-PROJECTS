@@ -1,0 +1,61 @@
+package com.tagtransaction.tag.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="TAG_MASTER")
+public class PurchaseTagEntity {
+
+	@Id
+	@SequenceGenerator(name = "TAG_ID_SEQ", sequenceName = "TAG_ID_SEQ", initialValue = 1, allocationSize = 1)
+    @GeneratedValue(generator = "TAG_ID_SEQ")
+	@Column
+	private Long tagId;
+	
+	@Column
+	private String tagRegId;
+	
+	@Column
+	private String vehicleRegNum;
+	
+	@Column
+	private String vehicleType;
+	
+	@Column
+	private Date tagStartDate;
+	
+	@Column
+	private Date tagExpiryDate;
+	
+	@Column
+	private Double tagBal;
+	
+	
+	@Column
+	private Long userId;
+	
+	@Column
+	private String tagSwitch;
+	
+	@Column
+	@CreationTimestamp
+	private Date createdDate;
+	
+	@Column
+	@UpdateTimestamp
+	private Date updatedDate;
+
+}

@@ -1,0 +1,11 @@
+Hi {FIRST_NAME} {LAST_NAME},
+
+     Thank you for creating account in ATS, your registration is almost completed.
+     To use your account in ATS, you need to unlock your account using below details.
+
+        Temporary Password:{TEMP_PASSWORD}
+        
+        Link to unlock:<a href="http://localhost:8855/{unLock}?email={EMAIL}">
+      
+  Thanks,
+  ATS Team.

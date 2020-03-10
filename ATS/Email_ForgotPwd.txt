@@ -1,0 +1,8 @@
+Hi {FIRST_NAME} {LAST_NAME},
+
+         Password is:{PASSWORD}  (don't disclose to any one.)
+         
+        Link to LogIn:<a href="http://localhost:8855/login">
+      
+  Thanks,
+  ATM Team.
